@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Element Insertion</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+
+    <script>
+    console.log(myData);
+    	var json = '[	
+    					{
+    						"manufacturer":"BMW",
+    						"model":"E92 320i",
+    						"year":"2011",
+    						"price":"50000",
+    						"class":"Family"
+    					},
+
+						{
+							"manufacturer":"Porsche",
+							"model":"Panamera",
+							"year":"2012",
+							"price":"100000",
+							"class":"Sport"
+						},
+
+						{
+							"manufacturer":"Peugeot",
+							"model":"305",
+							"year":"1978",
+							"price":"1000",
+							"class":"Family"
+						},
+					]';
+					console.log(json);
+		var myData = JSON.parse(json);
+
+		console.log(myData);
+    </script>
+
+</body>
+</html>
